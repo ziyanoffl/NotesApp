@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textMyNotes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_12sdp"
@@ -19,7 +20,55 @@
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintTop_toTopOf="parent"/>
-    
+
+    <LinearLayout
+        android:id="@+id/layoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/background_search"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/textMyNotes">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_search"
+            android:tint="@color/colorSearchIcon"
+            tools:ignore="UseAppTint" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@null"
+            android:hint="@string/search_notes"
+            android:fontFamily="@font/ubuntu_regular"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="text"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorTextHint"
+            android:textSize="@dimen/_13ssp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
