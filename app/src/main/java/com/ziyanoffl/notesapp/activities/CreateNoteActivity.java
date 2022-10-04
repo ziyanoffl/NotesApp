@@ -34,7 +34,8 @@ public class CreateNoteActivity extends AppCompatActivity {
         imageBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onBackPressed();
+                Intent myIntent = new Intent(CreateNoteActivity.this, MainActivity.class);
+                CreateNoteActivity.this.startActivity(myIntent);
             }
         });
 
@@ -88,7 +89,8 @@ public class CreateNoteActivity extends AppCompatActivity {
                 super.onPostExecute(unused);
                 Intent intent = new Intent();
                 setResult(RESULT_OK,intent);
-                finish();
+                Intent myIntent = new Intent(CreateNoteActivity.this, MainActivity.class);
+                CreateNoteActivity.this.startActivity(myIntent);
             }
         }
         new SaveNoteTask().execute();
