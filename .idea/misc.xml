@@ -3,14 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable-v24/background_note_color_2.xml" value="0.1225" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable-v24/background_note_color_3.xml" value="0.1225" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable-v24/background_note_color_4.xml" value="0.1225" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable-v24/background_note_color_5.xml" value="0.1225" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_add_button.xml" value="0.1695" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_done_button.xml" value="0.1705" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_miscellaneous.xml" value="0.162" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_note.xml" value="0.175" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_note_color_1.xml" value="0.1225" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_search.xml" value="0.2325" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/drawable/background_subtitle_indicator.xml" value="0.175" />
-        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/layout/activity_create_note.xml" value="0.25" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/layout/activity_create_note.xml" value="0.176" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/layout/item_container_note.xml" value="0.16824324324324325" />
+        <entry key="..\:/My/Java Apps/Android apps/NotesApp/app/src/main/res/layout/layout_miscellaneous.xml" value="0.16799999999999998" />
       </map>
     </option>
   </component>
